@@ -11,16 +11,20 @@ class Produto {
    if(this.validaCampos(produto)) {
       this.adicionar(produto);
    }
+
+   
    
 
    console.log(this.arrayProdutos);
-
+   }
 
    listaTabela() {
-      let tbody = document,getElementById()
+      let tbody = document.getElementById()
+
+      
    }
 
-   }
+   
 
    adicionar(produto) {
       this.arrayProdutos.push(produto);
