@@ -29,7 +29,7 @@ class Produto {
    adicionar(produto) {
       this.arrayProdutos.push(produto);
       this.id++;
-   }
+   } 
 
    lerDados() {
       let produto = {}
